@@ -1,0 +1,169 @@
+
+
+2023-06-01T10:43:02,089 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\moham\eclipse-workspace\restful-booker-api-framework\suites\day6.xml
+
+2023-06-01T10:43:02,136 [main] INFO  (Day6.java:30) - Testing functionality create booking starts...
+2023-06-01T10:43:04,380 [main] ERROR (RestAssuredListener.java:27) - 
+ Method POST
+ URI https://restful-booker.herokuapp.com/booking
+ request body {"firstname":"Ahmed","lastname":"Hamouda","totalprice":1000,"depositpaid":true,"bookingdates":{"checkin":"2023-01-02","checkout":"2023-03-05"},"additionalneeds":"breakfast"}
+ response body {
+    "bookingid": 667,
+    "booking": {
+        "firstname": "Ahmed",
+        "lastname": "Hamouda",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-01-02",
+            "checkout": "2023-03-05"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2023-06-01T10:43:04,400 [main] INFO  (BaseTest.java:30) - java.lang.AssertionError: expected [400] but found [200]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1418)
+	at org.testng.Assert.assertEquals(Assert.java:1382)
+	at org.testng.Assert.assertEquals(Assert.java:1428)
+	at testerTalks.Day6.createBooking(Day6.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+2023-06-01T11:14:15,506 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2023-06-01T11:14:15,510 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2023-06-01T11:14:15,512 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-06-01T11:14:15,512 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-06-01T11:14:15,513 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-06-01T11:14:15,513 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-06-01T11:14:15,513 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-06-01T11:14:15,513 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-06-01T11:14:15,514 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-06-01T11:14:15,514 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-06-01T11:14:15,514 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-06-01T11:14:15,514 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-06-01T11:14:15,515 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-06-01T11:14:15,515 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-06-01T11:14:15,515 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-06-01T11:14:15,515 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-06-01T11:14:15,520 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-06-01T11:14:15,520 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-06-01T11:14:15,525 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+2023-06-01T11:14:15,534 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
+2023-06-01T11:14:15,536 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-06-01T11:14:15,536 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-06-01T11:14:15,537 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-06-01T11:14:15,537 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-06-01T11:14:15,538 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2023-06-01T11:14:15,539 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-06-01T11:14:15,541 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-06-01T11:14:15,541 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-06-01T11:14:15,541 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2023-06-01T11:14:15,541 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2023-06-01T11:14:15,550 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\moham\AppData\Local\Temp\testng-eclipse-1180778963\testng-customsuite.xml
+
+2023-06-01T11:14:15,576 [main] INFO  (Logger.java:112) - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2023-06-01T11:14:15,633 [main] INFO  (Day7.java:30) - Testing functionality create booking starts...
+2023-06-01T11:14:17,841 [main] ERROR (RestAssuredListener.java:27) - 
+ Method POST
+ URI https://restful-booker.herokuapp.com/booking
+ request body {"firstname":"Ahmed","lastname":"Hamouda","totalprice":1000,"depositpaid":true,"bookingdates":{"checkin":"2023-01-02","checkout":"2023-03-05"},"additionalneeds":"breakfast"}
+ response body {
+    "bookingid": 1059,
+    "booking": {
+        "firstname": "Ahmed",
+        "lastname": "Hamouda",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-01-02",
+            "checkout": "2023-03-05"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2023-06-01T11:14:17,844 [main] INFO  (Day7.java:43) - Testing create booking ends...
+2023-06-01T11:14:17,893 [main] INFO  (BaseTest.java:36) - createBooking functionality succeeded
+2023-06-01T11:14:17,939 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.internal.ExitCodeListener@1e120628: 0 ms
+2023-06-01T11:14:17,959 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@563317c1: 20 ms
+2023-06-01T11:14:18,006 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.jq.Main@3babcaed: 46 ms
+2023-06-01T11:14:18,007 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.FailedReporter@2b9e69fb: 0 ms
+2023-06-01T11:14:18,013 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.XMLReporter@2b9aeedb: 5 ms
+2023-06-01T11:14:18,018 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4416e18d: 4 ms
+2023-06-01T11:14:18,024 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@49038f97: 6 ms
+2023-06-01T11:43:57,128 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\moham\eclipse-workspace\restful-booker-api-framework\suites\day7.xml
+
+2023-06-01T11:43:57,221 [main] INFO  (Day7.java:44) - Testing functionality create booking starts...
+2023-06-01T11:43:59,719 [main] ERROR (RestAssuredListener.java:27) - 
+ Method POST
+ URI https://restful-booker.herokuapp.com/booking
+ request body {"firstname":"Ahmed","lastname":"Hamouda","totalprice":1000,"depositpaid":true,"bookingdates":{"checkin":"2023-01-02","checkout":"2023-03-05"},"additionalneeds":"breakfast"}
+ response body {
+    "bookingid": 922,
+    "booking": {
+        "firstname": "Ahmed",
+        "lastname": "Hamouda",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-01-02",
+            "checkout": "2023-03-05"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2023-06-01T11:43:59,722 [main] INFO  (Day7.java:58) - Testing create booking ends...
+2023-06-01T11:43:59,768 [main] INFO  (BaseTest.java:36) - createBooking functionality succeeded
+2023-06-01T11:46:47,865 [main] INFO  (Day7.java:44) - Testing functionality create booking starts...
+2023-06-01T11:46:50,308 [main] ERROR (RestAssuredListener.java:27) - 
+ Method POST
+ URI https://restful-booker.herokuapp.com/booking
+ request body {"firstname":"Ahmed","lastname":"Hamouda","totalprice":1000,"depositpaid":true,"bookingdates":{"checkin":"2023-01-02","checkout":"2023-03-05"},"additionalneeds":"breakfast"}
+ response body {
+    "bookingid": 2465,
+    "booking": {
+        "firstname": "Ahmed",
+        "lastname": "Hamouda",
+        "totalprice": 1000,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2023-01-02",
+            "checkout": "2023-03-05"
+        },
+        "additionalneeds": "breakfast"
+    }
+}
+2023-06-01T11:46:50,310 [main] INFO  (Day7.java:58) - Testing create booking ends...
+2023-06-01T11:46:50,355 [main] INFO  (BaseTest.java:36) - createBooking functionality succeeded
