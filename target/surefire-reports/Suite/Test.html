@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jun 10 17:30:04 CEST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>13 seconds (13786 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='api.test.BookingTest.testCreateBooking()'><b>testCreateBooking</b><br>Test class: api.test.BookingTest<br>Parameters: {additionalneeds=breakfast, additionalneedsupdated=baby bed, checkin=2023-02-15, checkout=2023-03-30, depositpaid=true, depositpaidupdated=false, firstname=sonia, lastname=ben mohamed, totalprice=1500, totalpriceupdated=1000}</td>
+<td></td>
+<td>0</td>
+<td>api.test.BookingTest@39fc6b2c</td></tr>
+<tr>
+<td title='api.test.PingTest.testGetHealthCheck()'><b>testGetHealthCheck</b><br>Test class: api.test.PingTest</td>
+<td></td>
+<td>1</td>
+<td>api.test.PingTest@704b2127</td></tr>
+<tr>
+<td title='api.test.BookingTest.testGetBookingIds()'><b>testGetBookingIds</b><br>Test class: api.test.BookingTest</td>
+<td></td>
+<td>1</td>
+<td>api.test.BookingTest@39fc6b2c</td></tr>
+<tr>
+<td title='api.test.BookingTest.testPatchBooking()'><b>testPatchBooking</b><br>Test class: api.test.BookingTest<br>Parameters: {additionalneeds=breakfast, additionalneedsupdated=baby bed, checkin=2023-02-15, checkout=2023-03-30, depositpaid=true, depositpaidupdated=false, firstname=sonia, lastname=ben mohamed, totalprice=1500, totalpriceupdated=1000}, org.testng.TestRunner@511816c0</td>
+<td></td>
+<td>1</td>
+<td>api.test.BookingTest@39fc6b2c</td></tr>
+<tr>
+<td title='api.test.BookingTest.testDeleteBooking()'><b>testDeleteBooking</b><br>Test class: api.test.BookingTest<br>Parameters: org.testng.TestRunner@511816c0</td>
+<td></td>
+<td>0</td>
+<td>api.test.BookingTest@39fc6b2c</td></tr>
+<tr>
+<td title='api.test.BookingTest.testGetBooking()'><b>testGetBooking</b><br>Test class: api.test.BookingTest<br>Parameters: {additionalneeds=breakfast, additionalneedsupdated=baby bed, checkin=2023-02-15, checkout=2023-03-30, depositpaid=true, depositpaidupdated=false, firstname=sonia, lastname=ben mohamed, totalprice=1500, totalpriceupdated=1000}</td>
+<td></td>
+<td>1</td>
+<td>api.test.BookingTest@39fc6b2c</td></tr>
+<tr>
+<td title='api.test.BookingTest.testUpdateBooking()'><b>testUpdateBooking</b><br>Test class: api.test.BookingTest<br>Parameters: {additionalneeds=breakfast, additionalneedsupdated=baby bed, checkin=2023-02-15, checkout=2023-03-30, depositpaid=true, depositpaidupdated=false, firstname=sonia, lastname=ben mohamed, totalprice=1500, totalpriceupdated=1000}, org.testng.TestRunner@511816c0</td>
+<td></td>
+<td>0</td>
+<td>api.test.BookingTest@39fc6b2c</td></tr>
+<tr>
+<td title='api.test.AuthTest.generateToken()'><b>generateToken</b><br>Test class: api.test.AuthTest<br>Parameters: org.testng.TestRunner@511816c0</td>
+<td></td>
+<td>3</td>
+<td>api.test.AuthTest@1c65121</td></tr>
+<tr>
+<td title='api.test.BookingTest.testGetBookingIdsByName()'><b>testGetBookingIdsByName</b><br>Test class: api.test.BookingTest<br>Parameters: {additionalneeds=breakfast, additionalneedsupdated=baby bed, checkin=2023-02-15, checkout=2023-03-30, depositpaid=true, depositpaidupdated=false, firstname=sonia, lastname=ben mohamed, totalprice=1500, totalpriceupdated=1000}</td>
+<td></td>
+<td>1</td>
+<td>api.test.BookingTest@39fc6b2c</td></tr>
+</table><p>
+</body>
+</html>

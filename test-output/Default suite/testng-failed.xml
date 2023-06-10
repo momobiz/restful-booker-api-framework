@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testerTalks.Day6">
+      <class name="api.test.PingTest">
         <methods>
-          <include name="createBooking"/>
-          <include name="afterMethod"/>
+          <include name="setupData"/>
+          <include name="testGetHealthCheck"/>
         </methods>
-      </class> <!-- testerTalks.Day6 -->
+      </class> <!-- api.test.PingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,169 +1,151 @@
+2023-06-10T17:22:47,692 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\moham\eclipse-workspace\restful-booker-api-framework\testng.xml
 
+2023-06-10T17:22:47,784 [main] INFO  (AuthTest.java:36) - ******* test generateToken starts... *******
+2023-06-10T17:22:50,346 [main] INFO  (AuthTest.java:60) - ******* test generateToken ended *******
+2023-06-10T17:22:50,388 [main] INFO  (BaseTest.java:37) - ==> generateToken completely runned with success
+2023-06-10T17:22:50,400 [main] INFO  (BookingTest.java:50) - ******* testGetBookingIds starts... *******
+2023-06-10T17:22:51,262 [main] INFO  (BookingTest.java:62) - ******* testGetBookingIds ended *******
+2023-06-10T17:22:51,266 [main] INFO  (BaseTest.java:37) - ==> testGetBookingIds completely runned with success
+2023-06-10T17:22:51,792 [main] INFO  (BookingTest.java:72) - ******* test Create booking starts... **********
+2023-06-10T17:22:52,696 [main] INFO  (BookingTest.java:123) - ******* test Create booking ended *******
+2023-06-10T17:22:52,700 [main] INFO  (BaseTest.java:37) - ==> testCreateBooking completely runned with success
+2023-06-10T17:22:52,732 [main] INFO  (BookingTest.java:132) - ******* testing getBooking starts *******
+2023-06-10T17:22:53,570 [main] INFO  (BookingTest.java:155) - ******* test get booking ended... *******
+2023-06-10T17:22:53,573 [main] INFO  (BaseTest.java:37) - ==> testGetBooking completely runned with success
+2023-06-10T17:22:53,601 [main] INFO  (BookingTest.java:166) - ******* testGetBookingIdsByName starts... *******
+2023-06-10T17:22:54,456 [main] INFO  (BookingTest.java:132) - ******* testing getBooking starts *******
+2023-06-10T17:22:55,279 [main] INFO  (BookingTest.java:155) - ******* test get booking ended... *******
+2023-06-10T17:22:55,279 [main] INFO  (BookingTest.java:179) - ******* testGetBookingIdsByName ended *******
+2023-06-10T17:22:55,282 [main] INFO  (BaseTest.java:37) - ==> testGetBookingIdsByName completely runned with success
+2023-06-10T17:22:55,308 [main] INFO  (BookingTest.java:189) - ******* test updateBooking starts... *******
+2023-06-10T17:22:56,161 [main] INFO  (BookingTest.java:220) - ******* test updateBooking ended ********
+2023-06-10T17:22:56,163 [main] INFO  (BaseTest.java:37) - ==> testUpdateBooking completely runned with success
+2023-06-10T17:22:56,183 [main] INFO  (BookingTest.java:228) - ******* test PatchBooking starts... ********
+2023-06-10T17:22:57,031 [main] INFO  (BookingTest.java:254) - ******* test PatchBooking ended ********
+2023-06-10T17:22:57,034 [main] INFO  (BaseTest.java:37) - ==> testPatchBooking completely runned with success
+2023-06-10T17:22:57,038 [main] INFO  (BookingTest.java:262) - ******* test deleteBooking starts... ********
+2023-06-10T17:22:57,875 [main] INFO  (BookingTest.java:280) - ******* test deleteBooking ended ********
+2023-06-10T17:22:57,878 [main] INFO  (BaseTest.java:37) - ==> testDeleteBooking completely runned with success
+2023-06-10T17:22:57,881 [main] INFO  (PingTest.java:28) - ******* test testGetHealthCheck starts... ********
+2023-06-10T17:22:58,673 [main] INFO  (PingTest.java:46) - ******* test testGetHealthCheck ended ********
+2023-06-10T17:22:58,675 [main] INFO  (BaseTest.java:37) - ==> testGetHealthCheck completely runned with success
+2023-06-10T17:23:35,822 [main] INFO  (AuthTest.java:36) - ******* test generateToken starts... *******
+2023-06-10T17:23:38,455 [main] INFO  (AuthTest.java:60) - ******* test generateToken ended *******
+2023-06-10T17:23:38,501 [main] INFO  (BaseTest.java:37) - ==> generateToken completely runned with success
+2023-06-10T17:23:38,512 [main] INFO  (BookingTest.java:50) - ******* testGetBookingIds starts... *******
+2023-06-10T17:23:39,946 [main] INFO  (BookingTest.java:62) - ******* testGetBookingIds ended *******
+2023-06-10T17:23:39,949 [main] INFO  (BaseTest.java:37) - ==> testGetBookingIds completely runned with success
+2023-06-10T17:23:40,474 [main] INFO  (BookingTest.java:72) - ******* test Create booking starts... **********
+2023-06-10T17:23:41,374 [main] INFO  (BookingTest.java:123) - ******* test Create booking ended *******
+2023-06-10T17:23:41,377 [main] INFO  (BaseTest.java:37) - ==> testCreateBooking completely runned with success
+2023-06-10T17:23:41,403 [main] INFO  (BookingTest.java:132) - ******* testing getBooking starts *******
+2023-06-10T17:23:42,297 [main] INFO  (BookingTest.java:155) - ******* test get booking ended... *******
+2023-06-10T17:23:42,300 [main] INFO  (BaseTest.java:37) - ==> testGetBooking completely runned with success
+2023-06-10T17:23:42,325 [main] INFO  (BookingTest.java:166) - ******* testGetBookingIdsByName starts... *******
+2023-06-10T17:23:43,146 [main] INFO  (BookingTest.java:132) - ******* testing getBooking starts *******
+2023-06-10T17:23:44,009 [main] INFO  (BookingTest.java:155) - ******* test get booking ended... *******
+2023-06-10T17:23:44,009 [main] INFO  (BookingTest.java:179) - ******* testGetBookingIdsByName ended *******
+2023-06-10T17:23:44,011 [main] INFO  (BaseTest.java:37) - ==> testGetBookingIdsByName completely runned with success
+2023-06-10T17:23:44,034 [main] INFO  (BookingTest.java:189) - ******* test updateBooking starts... *******
+2023-06-10T17:23:44,840 [main] INFO  (BookingTest.java:220) - ******* test updateBooking ended ********
+2023-06-10T17:23:44,842 [main] INFO  (BaseTest.java:37) - ==> testUpdateBooking completely runned with success
+2023-06-10T17:23:44,863 [main] INFO  (BookingTest.java:228) - ******* test PatchBooking starts... ********
+2023-06-10T17:23:45,731 [main] INFO  (BookingTest.java:254) - ******* test PatchBooking ended ********
+2023-06-10T17:23:45,733 [main] INFO  (BaseTest.java:37) - ==> testPatchBooking completely runned with success
+2023-06-10T17:23:45,737 [main] INFO  (BookingTest.java:262) - ******* test deleteBooking starts... ********
+2023-06-10T17:23:46,611 [main] INFO  (BookingTest.java:280) - ******* test deleteBooking ended ********
+2023-06-10T17:23:46,613 [main] INFO  (BaseTest.java:37) - ==> testDeleteBooking completely runned with success
+2023-06-10T17:23:46,617 [main] INFO  (PingTest.java:28) - ******* test testGetHealthCheck starts... ********
+2023-06-10T17:23:47,572 [main] INFO  (PingTest.java:46) - ******* test testGetHealthCheck ended ********
+2023-06-10T17:23:47,573 [main] INFO  (BaseTest.java:37) - ==> testGetHealthCheck completely runned with success
+2023-06-10T17:28:35,631 [main] INFO  (AuthTest.java:36) - ******* test generateToken starts... *******
+2023-06-10T17:28:38,882 [main] INFO  (AuthTest.java:60) - ******* test generateToken ended *******
+2023-06-10T17:28:38,922 [main] INFO  (BaseTest.java:37) - ==> generateToken completely runned with success
+2023-06-10T17:28:38,933 [main] INFO  (BookingTest.java:50) - ******* testGetBookingIds starts... *******
+2023-06-10T17:28:39,962 [main] INFO  (BookingTest.java:62) - ******* testGetBookingIds ended *******
+2023-06-10T17:28:39,968 [main] INFO  (BaseTest.java:37) - ==> testGetBookingIds completely runned with success
+2023-06-10T17:28:40,550 [main] INFO  (BookingTest.java:72) - ******* test Create booking starts... **********
+2023-06-10T17:28:41,397 [main] INFO  (BookingTest.java:123) - ******* test Create booking ended *******
+2023-06-10T17:28:41,401 [main] INFO  (BaseTest.java:37) - ==> testCreateBooking completely runned with success
+2023-06-10T17:28:41,429 [main] INFO  (BookingTest.java:132) - ******* testing getBooking starts *******
+2023-06-10T17:28:42,257 [main] INFO  (BookingTest.java:155) - ******* test get booking ended... *******
+2023-06-10T17:28:42,259 [main] INFO  (BaseTest.java:37) - ==> testGetBooking completely runned with success
+2023-06-10T17:28:42,283 [main] INFO  (BookingTest.java:166) - ******* testGetBookingIdsByName starts... *******
+2023-06-10T17:28:43,104 [main] INFO  (BookingTest.java:132) - ******* testing getBooking starts *******
+2023-06-10T17:28:43,916 [main] INFO  (BookingTest.java:155) - ******* test get booking ended... *******
+2023-06-10T17:28:43,917 [main] INFO  (BookingTest.java:179) - ******* testGetBookingIdsByName ended *******
+2023-06-10T17:28:43,918 [main] INFO  (BaseTest.java:37) - ==> testGetBookingIdsByName completely runned with success
+2023-06-10T17:28:43,942 [main] INFO  (BookingTest.java:189) - ******* test updateBooking starts... *******
+2023-06-10T17:28:44,833 [main] INFO  (BookingTest.java:220) - ******* test updateBooking ended ********
+2023-06-10T17:28:44,835 [main] INFO  (BaseTest.java:37) - ==> testUpdateBooking completely runned with success
+2023-06-10T17:28:44,860 [main] INFO  (BookingTest.java:228) - ******* test PatchBooking starts... ********
+2023-06-10T17:28:45,695 [main] INFO  (BookingTest.java:254) - ******* test PatchBooking ended ********
+2023-06-10T17:28:45,697 [main] INFO  (BaseTest.java:37) - ==> testPatchBooking completely runned with success
+2023-06-10T17:28:45,701 [main] INFO  (BookingTest.java:262) - ******* test deleteBooking starts... ********
+2023-06-10T17:28:46,499 [main] INFO  (BookingTest.java:280) - ******* test deleteBooking ended ********
+2023-06-10T17:28:46,501 [main] INFO  (BaseTest.java:37) - ==> testDeleteBooking completely runned with success
+2023-06-10T17:28:46,505 [main] INFO  (PingTest.java:28) - ******* test testGetHealthCheck starts... ********
+2023-06-10T17:28:47,311 [main] INFO  (PingTest.java:46) - ******* test testGetHealthCheck ended ********
+2023-06-10T17:28:47,313 [main] INFO  (BaseTest.java:37) - ==> testGetHealthCheck completely runned with success
+2023-06-10T17:28:58,412 [main] INFO  (Logger.java:112) - [TestNG] Running:
+  C:\Users\moham\eclipse-workspace\restful-booker-api-framework\testng.xml
 
-2023-06-01T10:43:02,089 [main] INFO  (Logger.java:112) - [TestNG] Running:
-  C:\Users\moham\eclipse-workspace\restful-booker-api-framework\suites\day6.xml
-
-2023-06-01T10:43:02,136 [main] INFO  (Day6.java:30) - Testing functionality create booking starts...
-2023-06-01T10:43:04,380 [main] ERROR (RestAssuredListener.java:27) - 
- Method POST
- URI https://restful-booker.herokuapp.com/booking
- request body {"firstname":"Ahmed","lastname":"Hamouda","totalprice":1000,"depositpaid":true,"bookingdates":{"checkin":"2023-01-02","checkout":"2023-03-05"},"additionalneeds":"breakfast"}
- response body {
-    "bookingid": 667,
-    "booking": {
-        "firstname": "Ahmed",
-        "lastname": "Hamouda",
-        "totalprice": 1000,
-        "depositpaid": true,
-        "bookingdates": {
-            "checkin": "2023-01-02",
-            "checkout": "2023-03-05"
-        },
-        "additionalneeds": "breakfast"
-    }
-}
-2023-06-01T10:43:04,400 [main] INFO  (BaseTest.java:30) - java.lang.AssertionError: expected [400] but found [200]
-	at org.testng.Assert.fail(Assert.java:110)
-	at org.testng.Assert.failNotEquals(Assert.java:1577)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-	at org.testng.Assert.assertEquals(Assert.java:131)
-	at org.testng.Assert.assertEquals(Assert.java:1418)
-	at org.testng.Assert.assertEquals(Assert.java:1382)
-	at org.testng.Assert.assertEquals(Assert.java:1428)
-	at testerTalks.Day6.createBooking(Day6.java:41)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-	at org.testng.TestRunner.privateRun(TestRunner.java:829)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-	at org.testng.TestNG.runSuites(TestNG.java:1099)
-	at org.testng.TestNG.run(TestNG.java:1067)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-
-2023-06-01T11:14:15,506 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-2023-06-01T11:14:15,510 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
-2023-06-01T11:14:15,512 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2023-06-01T11:14:15,512 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2023-06-01T11:14:15,513 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2023-06-01T11:14:15,513 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2023-06-01T11:14:15,513 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2023-06-01T11:14:15,513 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2023-06-01T11:14:15,514 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2023-06-01T11:14:15,514 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2023-06-01T11:14:15,514 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2023-06-01T11:14:15,514 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2023-06-01T11:14:15,515 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2023-06-01T11:14:15,515 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2023-06-01T11:14:15,515 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2023-06-01T11:14:15,515 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2023-06-01T11:14:15,520 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2023-06-01T11:14:15,520 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2023-06-01T11:14:15,525 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
-2023-06-01T11:14:15,534 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 8 ms.
-2023-06-01T11:14:15,536 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2023-06-01T11:14:15,536 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2023-06-01T11:14:15,537 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2023-06-01T11:14:15,537 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2023-06-01T11:14:15,538 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
-2023-06-01T11:14:15,539 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2023-06-01T11:14:15,541 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2023-06-01T11:14:15,541 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2023-06-01T11:14:15,541 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
-2023-06-01T11:14:15,541 [main] INFO  (Logger.java:112) - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
-2023-06-01T11:14:15,550 [main] INFO  (Logger.java:112) - [TestNG] Running:
-  C:\Users\moham\AppData\Local\Temp\testng-eclipse-1180778963\testng-customsuite.xml
-
-2023-06-01T11:14:15,576 [main] INFO  (Logger.java:112) - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
-2023-06-01T11:14:15,633 [main] INFO  (Day7.java:30) - Testing functionality create booking starts...
-2023-06-01T11:14:17,841 [main] ERROR (RestAssuredListener.java:27) - 
- Method POST
- URI https://restful-booker.herokuapp.com/booking
- request body {"firstname":"Ahmed","lastname":"Hamouda","totalprice":1000,"depositpaid":true,"bookingdates":{"checkin":"2023-01-02","checkout":"2023-03-05"},"additionalneeds":"breakfast"}
- response body {
-    "bookingid": 1059,
-    "booking": {
-        "firstname": "Ahmed",
-        "lastname": "Hamouda",
-        "totalprice": 1000,
-        "depositpaid": true,
-        "bookingdates": {
-            "checkin": "2023-01-02",
-            "checkout": "2023-03-05"
-        },
-        "additionalneeds": "breakfast"
-    }
-}
-2023-06-01T11:14:17,844 [main] INFO  (Day7.java:43) - Testing create booking ends...
-2023-06-01T11:14:17,893 [main] INFO  (BaseTest.java:36) - createBooking functionality succeeded
-2023-06-01T11:14:17,939 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.internal.ExitCodeListener@1e120628: 0 ms
-2023-06-01T11:14:17,959 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@563317c1: 20 ms
-2023-06-01T11:14:18,006 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.jq.Main@3babcaed: 46 ms
-2023-06-01T11:14:18,007 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.FailedReporter@2b9e69fb: 0 ms
-2023-06-01T11:14:18,013 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.XMLReporter@2b9aeedb: 5 ms
-2023-06-01T11:14:18,018 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4416e18d: 4 ms
-2023-06-01T11:14:18,024 [main] INFO  (Logger.java:112) - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@49038f97: 6 ms
-2023-06-01T11:43:57,128 [main] INFO  (Logger.java:112) - [TestNG] Running:
-  C:\Users\moham\eclipse-workspace\restful-booker-api-framework\suites\day7.xml
-
-2023-06-01T11:43:57,221 [main] INFO  (Day7.java:44) - Testing functionality create booking starts...
-2023-06-01T11:43:59,719 [main] ERROR (RestAssuredListener.java:27) - 
- Method POST
- URI https://restful-booker.herokuapp.com/booking
- request body {"firstname":"Ahmed","lastname":"Hamouda","totalprice":1000,"depositpaid":true,"bookingdates":{"checkin":"2023-01-02","checkout":"2023-03-05"},"additionalneeds":"breakfast"}
- response body {
-    "bookingid": 922,
-    "booking": {
-        "firstname": "Ahmed",
-        "lastname": "Hamouda",
-        "totalprice": 1000,
-        "depositpaid": true,
-        "bookingdates": {
-            "checkin": "2023-01-02",
-            "checkout": "2023-03-05"
-        },
-        "additionalneeds": "breakfast"
-    }
-}
-2023-06-01T11:43:59,722 [main] INFO  (Day7.java:58) - Testing create booking ends...
-2023-06-01T11:43:59,768 [main] INFO  (BaseTest.java:36) - createBooking functionality succeeded
-2023-06-01T11:46:47,865 [main] INFO  (Day7.java:44) - Testing functionality create booking starts...
-2023-06-01T11:46:50,308 [main] ERROR (RestAssuredListener.java:27) - 
- Method POST
- URI https://restful-booker.herokuapp.com/booking
- request body {"firstname":"Ahmed","lastname":"Hamouda","totalprice":1000,"depositpaid":true,"bookingdates":{"checkin":"2023-01-02","checkout":"2023-03-05"},"additionalneeds":"breakfast"}
- response body {
-    "bookingid": 2465,
-    "booking": {
-        "firstname": "Ahmed",
-        "lastname": "Hamouda",
-        "totalprice": 1000,
-        "depositpaid": true,
-        "bookingdates": {
-            "checkin": "2023-01-02",
-            "checkout": "2023-03-05"
-        },
-        "additionalneeds": "breakfast"
-    }
-}
-2023-06-01T11:46:50,310 [main] INFO  (Day7.java:58) - Testing create booking ends...
-2023-06-01T11:46:50,355 [main] INFO  (BaseTest.java:36) - createBooking functionality succeeded
+2023-06-10T17:28:58,525 [main] INFO  (AuthTest.java:36) - ******* test generateToken starts... *******
+2023-06-10T17:29:01,484 [main] INFO  (AuthTest.java:60) - ******* test generateToken ended *******
+2023-06-10T17:29:01,527 [main] INFO  (BaseTest.java:37) - ==> generateToken completely runned with success
+2023-06-10T17:29:01,540 [main] INFO  (BookingTest.java:50) - ******* testGetBookingIds starts... *******
+2023-06-10T17:29:02,658 [main] INFO  (BookingTest.java:62) - ******* testGetBookingIds ended *******
+2023-06-10T17:29:02,662 [main] INFO  (BaseTest.java:37) - ==> testGetBookingIds completely runned with success
+2023-06-10T17:29:03,267 [main] INFO  (BookingTest.java:72) - ******* test Create booking starts... **********
+2023-06-10T17:29:04,217 [main] INFO  (BookingTest.java:123) - ******* test Create booking ended *******
+2023-06-10T17:29:04,220 [main] INFO  (BaseTest.java:37) - ==> testCreateBooking completely runned with success
+2023-06-10T17:29:04,263 [main] INFO  (BookingTest.java:132) - ******* testing getBooking starts *******
+2023-06-10T17:29:05,111 [main] INFO  (BookingTest.java:155) - ******* test get booking ended... *******
+2023-06-10T17:29:05,114 [main] INFO  (BaseTest.java:37) - ==> testGetBooking completely runned with success
+2023-06-10T17:29:05,149 [main] INFO  (BookingTest.java:166) - ******* testGetBookingIdsByName starts... *******
+2023-06-10T17:29:05,980 [main] INFO  (BookingTest.java:132) - ******* testing getBooking starts *******
+2023-06-10T17:29:06,815 [main] INFO  (BookingTest.java:155) - ******* test get booking ended... *******
+2023-06-10T17:29:06,817 [main] INFO  (BookingTest.java:179) - ******* testGetBookingIdsByName ended *******
+2023-06-10T17:29:06,819 [main] INFO  (BaseTest.java:37) - ==> testGetBookingIdsByName completely runned with success
+2023-06-10T17:29:06,843 [main] INFO  (BookingTest.java:189) - ******* test updateBooking starts... *******
+2023-06-10T17:29:07,695 [main] INFO  (BookingTest.java:220) - ******* test updateBooking ended ********
+2023-06-10T17:29:07,698 [main] INFO  (BaseTest.java:37) - ==> testUpdateBooking completely runned with success
+2023-06-10T17:29:07,725 [main] INFO  (BookingTest.java:228) - ******* test PatchBooking starts... ********
+2023-06-10T17:29:08,849 [main] INFO  (BookingTest.java:254) - ******* test PatchBooking ended ********
+2023-06-10T17:29:08,852 [main] INFO  (BaseTest.java:37) - ==> testPatchBooking completely runned with success
+2023-06-10T17:29:08,857 [main] INFO  (BookingTest.java:262) - ******* test deleteBooking starts... ********
+2023-06-10T17:29:09,669 [main] INFO  (BookingTest.java:280) - ******* test deleteBooking ended ********
+2023-06-10T17:29:09,672 [main] INFO  (BaseTest.java:37) - ==> testDeleteBooking completely runned with success
+2023-06-10T17:29:09,677 [main] INFO  (PingTest.java:28) - ******* test testGetHealthCheck starts... ********
+2023-06-10T17:29:10,471 [main] INFO  (PingTest.java:46) - ******* test testGetHealthCheck ended ********
+2023-06-10T17:29:10,474 [main] INFO  (BaseTest.java:37) - ==> testGetHealthCheck completely runned with success
+2023-06-10T17:30:04,842 [main] INFO  (AuthTest.java:36) - ******* test generateToken starts... *******
+2023-06-10T17:30:07,814 [main] INFO  (AuthTest.java:60) - ******* test generateToken ended *******
+2023-06-10T17:30:07,858 [main] INFO  (BaseTest.java:37) - ==> generateToken completely runned with success
+2023-06-10T17:30:07,870 [main] INFO  (BookingTest.java:50) - ******* testGetBookingIds starts... *******
+2023-06-10T17:30:09,144 [main] INFO  (BookingTest.java:62) - ******* testGetBookingIds ended *******
+2023-06-10T17:30:09,148 [main] INFO  (BaseTest.java:37) - ==> testGetBookingIds completely runned with success
+2023-06-10T17:30:09,750 [main] INFO  (BookingTest.java:72) - ******* test Create booking starts... **********
+2023-06-10T17:30:10,613 [main] INFO  (BookingTest.java:123) - ******* test Create booking ended *******
+2023-06-10T17:30:10,616 [main] INFO  (BaseTest.java:37) - ==> testCreateBooking completely runned with success
+2023-06-10T17:30:10,640 [main] INFO  (BookingTest.java:132) - ******* testing getBooking starts *******
+2023-06-10T17:30:11,645 [main] INFO  (BookingTest.java:155) - ******* test get booking ended... *******
+2023-06-10T17:30:11,648 [main] INFO  (BaseTest.java:37) - ==> testGetBooking completely runned with success
+2023-06-10T17:30:11,680 [main] INFO  (BookingTest.java:166) - ******* testGetBookingIdsByName starts... *******
+2023-06-10T17:30:12,645 [main] INFO  (BookingTest.java:132) - ******* testing getBooking starts *******
+2023-06-10T17:30:13,619 [main] INFO  (BookingTest.java:155) - ******* test get booking ended... *******
+2023-06-10T17:30:13,619 [main] INFO  (BookingTest.java:179) - ******* testGetBookingIdsByName ended *******
+2023-06-10T17:30:13,621 [main] INFO  (BaseTest.java:37) - ==> testGetBookingIdsByName completely runned with success
+2023-06-10T17:30:13,647 [main] INFO  (BookingTest.java:189) - ******* test updateBooking starts... *******
+2023-06-10T17:30:14,529 [main] INFO  (BookingTest.java:220) - ******* test updateBooking ended ********
+2023-06-10T17:30:14,531 [main] INFO  (BaseTest.java:37) - ==> testUpdateBooking completely runned with success
+2023-06-10T17:30:14,563 [main] INFO  (BookingTest.java:228) - ******* test PatchBooking starts... ********
+2023-06-10T17:30:15,653 [main] INFO  (BookingTest.java:254) - ******* test PatchBooking ended ********
+2023-06-10T17:30:15,657 [main] INFO  (BaseTest.java:37) - ==> testPatchBooking completely runned with success
+2023-06-10T17:30:15,663 [main] INFO  (BookingTest.java:262) - ******* test deleteBooking starts... ********
+2023-06-10T17:30:16,545 [main] INFO  (BookingTest.java:280) - ******* test deleteBooking ended ********
+2023-06-10T17:30:16,549 [main] INFO  (BaseTest.java:37) - ==> testDeleteBooking completely runned with success
+2023-06-10T17:30:16,553 [main] INFO  (PingTest.java:28) - ******* test testGetHealthCheck starts... ********
+2023-06-10T17:30:18,537 [main] INFO  (PingTest.java:46) - ******* test testGetHealthCheck ended ********
+2023-06-10T17:30:18,543 [main] INFO  (BaseTest.java:37) - ==> testGetHealthCheck completely runned with success

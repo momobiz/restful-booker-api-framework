@@ -1,28 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-01T11:46:47 CEST" name="Suite" finished-at="2023-06-01T11:46:50 CEST" duration-ms="2596">
+  <suite started-at="2023-06-10T17:30:04 CEST" name="Suite" finished-at="2023-06-10T17:30:18 CEST" duration-ms="13786">
     <groups>
     </groups>
-    <test started-at="2023-06-01T11:46:47 CEST" name="Day7" finished-at="2023-06-01T11:46:50 CEST" duration-ms="2596">
-      <class name="testerTalks.Day7">
-        <test-method signature="createBooking()[pri:0, instance:testerTalks.Day7@133e019b]" started-at="2023-06-01T11:46:47 CEST" name="createBooking" description="end to end api test" finished-at="2023-06-01T11:46:50 CEST" duration-ms="2494" status="PASS">
+    <test started-at="2023-06-10T17:30:04 CEST" name="Test" finished-at="2023-06-10T17:30:18 CEST" duration-ms="13786">
+      <class name="api.test.AuthTest">
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.AuthTest@1c65121]" started-at="2023-06-10T17:30:04 CEST" name="setupData" finished-at="2023-06-10T17:30:04 CEST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createBooking -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testerTalks.Day7@133e019b]" started-at="2023-06-01T11:46:50 CEST" name="afterMethod" finished-at="2023-06-01T11:46:50 CEST" duration-ms="4" status="PASS">
+        </test-method> <!-- setupData -->
+        <test-method signature="generateToken(org.testng.ITestContext)[pri:0, instance:api.test.AuthTest@1c65121]" started-at="2023-06-10T17:30:04 CEST" name="generateToken" finished-at="2023-06-10T17:30:07 CEST" duration-ms="3002" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=createBooking status=SUCCESS method=Day7.createBooking()[pri:0, instance:testerTalks.Day7@133e019b] output={null}]]]>
+                <![CDATA[org.testng.TestRunner@511816c0]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- testerTalks.Day7 -->
-    </test> <!-- Day7 -->
+        </test-method> <!-- generateToken -->
+        <test-method is-config="true" signature="afterMetod(org.testng.ITestResult)[pri:0, instance:api.test.AuthTest@1c65121]" started-at="2023-06-10T17:30:07 CEST" name="afterMetod" finished-at="2023-06-10T17:30:07 CEST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=generateToken status=SUCCESS method=AuthTest.generateToken(org.testng.ITestContext)[pri:0, instance:api.test.AuthTest@1c65121] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMetod -->
+      </class> <!-- api.test.AuthTest -->
+      <class name="api.test.PingTest">
+        <test-method signature="testGetHealthCheck()[pri:0, instance:api.test.PingTest@704b2127]" started-at="2023-06-10T17:30:16 CEST" name="testGetHealthCheck" finished-at="2023-06-10T17:30:18 CEST" duration-ms="1987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetHealthCheck -->
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.PingTest@704b2127]" started-at="2023-06-10T17:30:16 CEST" name="setupData" finished-at="2023-06-10T17:30:16 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method is-config="true" signature="afterMetod(org.testng.ITestResult)[pri:0, instance:api.test.PingTest@704b2127]" started-at="2023-06-10T17:30:18 CEST" name="afterMetod" finished-at="2023-06-10T17:30:18 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetHealthCheck status=SUCCESS method=PingTest.testGetHealthCheck()[pri:0, instance:api.test.PingTest@704b2127] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMetod -->
+      </class> <!-- api.test.PingTest -->
+      <class name="api.test.BookingTest">
+        <test-method signature="testGetBookingIds()[pri:1, instance:api.test.BookingTest@39fc6b2c]" started-at="2023-06-10T17:30:07 CEST" name="testGetBookingIds" finished-at="2023-06-10T17:30:09 CEST" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBookingIds -->
+        <test-method is-config="true" signature="setupData()[pri:0, instance:api.test.BookingTest@39fc6b2c]" started-at="2023-06-10T17:30:07 CEST" name="setupData" finished-at="2023-06-10T17:30:07 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupData -->
+        <test-method is-config="true" signature="afterMetod(org.testng.ITestResult)[pri:0, instance:api.test.BookingTest@39fc6b2c]" started-at="2023-06-10T17:30:09 CEST" name="afterMetod" finished-at="2023-06-10T17:30:09 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetBookingIds status=SUCCESS method=BookingTest.testGetBookingIds()[pri:1, instance:api.test.BookingTest@39fc6b2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMetod -->
+        <test-method signature="testCreateBooking(java.util.Map)[pri:2, instance:api.test.BookingTest@39fc6b2c]" started-at="2023-06-10T17:30:09 CEST" name="testCreateBooking" data-provider="getData" finished-at="2023-06-10T17:30:10 CEST" duration-ms="866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{additionalneeds=breakfast, additionalneedsupdated=baby bed, checkin=2023-02-15, checkout=2023-03-30, depositpaid=true, depositpaidupdated=false, firstname=sonia, lastname=ben mohamed, totalprice=1500, totalpriceupdated=1000}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateBooking -->
+        <test-method is-config="true" signature="afterMetod(org.testng.ITestResult)[pri:0, instance:api.test.BookingTest@39fc6b2c]" started-at="2023-06-10T17:30:10 CEST" name="afterMetod" finished-at="2023-06-10T17:30:10 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateBooking status=SUCCESS method=BookingTest.testCreateBooking(java.util.Map)[pri:2, instance:api.test.BookingTest@39fc6b2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMetod -->
+        <test-method signature="testGetBooking(java.util.Map)[pri:3, instance:api.test.BookingTest@39fc6b2c]" started-at="2023-06-10T17:30:10 CEST" name="testGetBooking" data-provider="getData" finished-at="2023-06-10T17:30:11 CEST" duration-ms="1007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{additionalneeds=breakfast, additionalneedsupdated=baby bed, checkin=2023-02-15, checkout=2023-03-30, depositpaid=true, depositpaidupdated=false, firstname=sonia, lastname=ben mohamed, totalprice=1500, totalpriceupdated=1000}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBooking -->
+        <test-method is-config="true" signature="afterMetod(org.testng.ITestResult)[pri:0, instance:api.test.BookingTest@39fc6b2c]" started-at="2023-06-10T17:30:11 CEST" name="afterMetod" finished-at="2023-06-10T17:30:11 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetBooking status=SUCCESS method=BookingTest.testGetBooking(java.util.Map)[pri:3, instance:api.test.BookingTest@39fc6b2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMetod -->
+        <test-method signature="testGetBookingIdsByName(java.util.Map)[pri:4, instance:api.test.BookingTest@39fc6b2c]" started-at="2023-06-10T17:30:11 CEST" name="testGetBookingIdsByName" data-provider="getData" finished-at="2023-06-10T17:30:13 CEST" depends-on-methods="api.test.BookingTest.testGetBooking" duration-ms="1941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{additionalneeds=breakfast, additionalneedsupdated=baby bed, checkin=2023-02-15, checkout=2023-03-30, depositpaid=true, depositpaidupdated=false, firstname=sonia, lastname=ben mohamed, totalprice=1500, totalpriceupdated=1000}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetBookingIdsByName -->
+        <test-method is-config="true" signature="afterMetod(org.testng.ITestResult)[pri:0, instance:api.test.BookingTest@39fc6b2c]" started-at="2023-06-10T17:30:13 CEST" name="afterMetod" finished-at="2023-06-10T17:30:13 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetBookingIdsByName status=SUCCESS method=BookingTest.testGetBookingIdsByName(java.util.Map)[pri:4, instance:api.test.BookingTest@39fc6b2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMetod -->
+        <test-method signature="testUpdateBooking(java.util.Map,org.testng.ITestContext)[pri:5, instance:api.test.BookingTest@39fc6b2c]" started-at="2023-06-10T17:30:13 CEST" name="testUpdateBooking" data-provider="getData" finished-at="2023-06-10T17:30:14 CEST" duration-ms="883" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{additionalneeds=breakfast, additionalneedsupdated=baby bed, checkin=2023-02-15, checkout=2023-03-30, depositpaid=true, depositpaidupdated=false, firstname=sonia, lastname=ben mohamed, totalprice=1500, totalpriceupdated=1000}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@511816c0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateBooking -->
+        <test-method is-config="true" signature="afterMetod(org.testng.ITestResult)[pri:0, instance:api.test.BookingTest@39fc6b2c]" started-at="2023-06-10T17:30:14 CEST" name="afterMetod" finished-at="2023-06-10T17:30:14 CEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUpdateBooking status=SUCCESS method=BookingTest.testUpdateBooking(java.util.Map,org.testng.ITestContext)[pri:5, instance:api.test.BookingTest@39fc6b2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMetod -->
+        <test-method signature="testPatchBooking(java.util.Map,org.testng.ITestContext)[pri:6, instance:api.test.BookingTest@39fc6b2c]" started-at="2023-06-10T17:30:14 CEST" name="testPatchBooking" data-provider="getData" finished-at="2023-06-10T17:30:15 CEST" duration-ms="1092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{additionalneeds=breakfast, additionalneedsupdated=baby bed, checkin=2023-02-15, checkout=2023-03-30, depositpaid=true, depositpaidupdated=false, firstname=sonia, lastname=ben mohamed, totalprice=1500, totalpriceupdated=1000}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@511816c0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPatchBooking -->
+        <test-method is-config="true" signature="afterMetod(org.testng.ITestResult)[pri:0, instance:api.test.BookingTest@39fc6b2c]" started-at="2023-06-10T17:30:15 CEST" name="afterMetod" finished-at="2023-06-10T17:30:15 CEST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPatchBooking status=SUCCESS method=BookingTest.testPatchBooking(java.util.Map,org.testng.ITestContext)[pri:6, instance:api.test.BookingTest@39fc6b2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMetod -->
+        <test-method signature="testDeleteBooking(org.testng.ITestContext)[pri:7, instance:api.test.BookingTest@39fc6b2c]" started-at="2023-06-10T17:30:15 CEST" name="testDeleteBooking" finished-at="2023-06-10T17:30:16 CEST" duration-ms="885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@511816c0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteBooking -->
+        <test-method is-config="true" signature="afterMetod(org.testng.ITestResult)[pri:0, instance:api.test.BookingTest@39fc6b2c]" started-at="2023-06-10T17:30:16 CEST" name="afterMetod" finished-at="2023-06-10T17:30:16 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteBooking status=SUCCESS method=BookingTest.testDeleteBooking(org.testng.ITestContext)[pri:7, instance:api.test.BookingTest@39fc6b2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMetod -->
+      </class> <!-- api.test.BookingTest -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
